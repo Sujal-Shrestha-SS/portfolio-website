@@ -1,0 +1,36 @@
+/* ─── Google Fonts ─────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ─── Global Reset ─────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #0b1d3a;
+  color: white;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Custom Scrollbar ─────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0b1d3a; }
+::-webkit-scrollbar-thumb { background: #38bdf8; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #0ea5e9; }
+
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; display: block; }
+
+::selection {
+  background: rgba(56, 189, 248, 0.3);
+  color: white;
+}
