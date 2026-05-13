@@ -8,6 +8,11 @@ const Designs = () => {
       <Title>Passion Projects</Title>
 
       <SubTitle>"A football fan's creative outlet - casual Photoshop designs made purely for the love of the game."</SubTitle>
+      <DesignLink>
+        <a href="https://justlayers.netlify.app/" target="_blank" rel="noopener noreferrer">
+          View More Designs
+        </a>
+      </DesignLink>
 
       <DesignWrapper>
         {designs.map((design, index) => (
@@ -52,6 +57,22 @@ const SubTitle = styled.p`
     text-align: center;
   }
 `
+
+const DesignLink = styled.div`
+  margin-bottom: 48px;
+  a {
+    color: #90caf9;
+    font-size: clamp(14px, 1.3vw, 17px);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+
+    &:hover {
+      border-color: #90caf9;
+    }
+  }
+`
+
 
 const DesignWrapper = styled.div`
   width: 100%;

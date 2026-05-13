@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaFigma } from 'react-icons/fa'
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaPhp } from 'react-icons/fa'
+import { SiMysql } from "react-icons/si";
 
 const About = () => {
   return (
@@ -49,7 +50,8 @@ const About = () => {
                 <TechItem><FaJs /><span>JS</span></TechItem>
                 <TechItem><FaReact /><span>React</span></TechItem>
                 <TechItem><FaGitAlt /><span>Git</span></TechItem>
-                <TechItem><FaFigma /><span>Figma</span></TechItem>
+                <TechItem><FaPhp /><span>PHP</span></TechItem>
+                <TechItem><SiMysql /><span>MySQL</span></TechItem>
               </TechList>
             </InfoCard>
           </InfoRow>
