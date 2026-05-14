@@ -28,6 +28,12 @@ const projects = [
     image: "images/StriveX.png",
     link: "https://strivex.rf.gd",
     description: "This is a tournament management system"
+  },
+  {
+    title: "Groovio",
+    image: "images/Groovio.png",
+    link: "https://groovioo.netlify.app",
+    description: "This is a music video player"
   }
 ]
 
