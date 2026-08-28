@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import  { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import NavbarMenu from './NavbarMenu'
 import About from './About'
@@ -49,7 +49,7 @@ const Home = () => {
               digital solutions.
             </Description>
             <Buttons>
-              <PrimaryBtn href="/CV.pdf" download>Download CV</PrimaryBtn>
+              <PrimaryBtn href="/resume.pdf" download>Download Resume</PrimaryBtn>
               <SecondaryBtn href="#contact">Contact Me</SecondaryBtn>
             </Buttons>
           </Hero>
